@@ -65,6 +65,12 @@
 	border: #F3F3F3;
 }
 
+.card {
+	border: #F3F3F3!important;
+}
+.float-center {
+	align-items: center!important;
+}
 .feature-icon {
   width: 4rem;
   height: 4rem;
