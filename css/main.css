@@ -20,6 +20,12 @@
 	button {
 		width:100%;
 	}
+	.btn-custom {
+		--bs-btn-padding-y: 10px!important;
+		--bs-btn-padding-x: 1rem!important;
+		--bs-btn-font-size: 20px!important;
+		--bs-btn-border-radius: 12px!important;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -41,6 +47,12 @@
 	}
 	button {
 		width:300px;
+	}
+	.btn-custom {
+		--bs-btn-padding-y: 8px!important;
+		--bs-btn-padding-x: 1rem!important;
+		--bs-btn-font-size: 15px!important;
+		--bs-btn-border-radius: 12px!important;
 	}
 }
 
