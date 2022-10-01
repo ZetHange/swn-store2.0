@@ -5,14 +5,16 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>S.T.A.L.K.E.R. SoC | SWN Store 2.0</title>
       <link rel="stylesheet" href="css/main.css">
+      <!-- Bootstrap CDN -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+      <!-- Кастомные шрифты -->
       <link rel="stylesheet" href="//swn-store.tk/user/themes/quark/css/store/SBSansText.0.1.0.css">
       <link rel="stylesheet" href="//swn-store.tk/user/themes/quark/css/store/SBSansDisplay.0.1.0.css">
-      <link rel="stylesheet" href="//swn-store.tk/user/themes/quark/css/store/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
    </head>
    <body style="background-color:#f3f6f9!important;">
+      <!-- NavBar -->
       <nav class="navbar" style="background-color:#fefefe;">
          <div class="container">
             <a class="navbar-brand" style="margin-top: 45px;" href="/">
@@ -20,14 +22,15 @@
             </a>
          </div>
       </nav>
+      <!-- Контент -->
       <main class="mt-2" id="app">
          <div class="col">
             <div id="info-block" class="card rounded-4 shadow" style="background-color:#FEFEFD;">
                <div class="text-center px-2 mt-2 mb-2">
-                  <img height="220px" src="https://stalkerworldnews.simdif.com/images/public/sd_62cf2db5c46bc.jpg?no_cache=1657752040" class="rounded-5" id="logo-app" alt="Логотип приложения">
+                  <img height="220px" src="https://stalkerworldnews.simdif.com/images/public/sd_62cf2db5c46bc.jpg" class="rounded-5" id="logo-app" alt="Логотип приложения">
                   <div class="card-body">
                      <h1 class="px-2 text-app">S.T.A.L.K.E.R.: SoC</h1>
-                     <div class="d-flex" style="align-items:center;justify-content:center;">
+                     <div class="d-flex" id="about">
                         <div class="card px-2">
                            <h5 class="fw-semibold mb-0"><i class="fa-solid fa-code-compare"></i></h5>
                            <p class="text-muted">1.0006</p>
@@ -45,27 +48,42 @@
                            <p class="text-muted">Windows</p>
                         </div>
                      </div>
-                     <div class="px-2" id="buttons">
-                        <a href="https://google.com"><button type="button" class="px-2 btn btn-custom float-start btn-success">Предзаказ в Microsoft Store <i class="fa-brands fa-windows"></i></button></a>
-                     </div>
+                     <div class="px-2 container">
+                        <a href="https://google.com"><button type="button" class="btn float-start btn-custom btn-success">Предзаказ в Microsoft Store <i class="fa-brands fa-windows"></i></button></a>
                   </div>
+               </div>
                </div>
             </div>
             <div class="alert alert-warning mt-2" role="alert" style="text-align:center;">
                <i class="fa-solid fa-code"></i> Внимание, сайт находится <span class="badge text-bg-light">в разработке</span>
             </div>
+            <!-- Информация... -->
+            <div class="float-start">
+               <div id="what-new" class="mt-2 mb-2">
+                  <h4>Что нового:</h4>
+                  <small>
+                     • Оптимизация<br />
+                     • Фикс багов<br />
+                  </small>
+               </div>
+               <div id="about-app">
+                  <h4>Описание:</h4>
+                  <small>
+                     2012 год. Со дня Второй катастрофы, затмившей апрельские события 1986 года, прошло шесть лет.
+                     <br /><br />
+                     События игры происходят в Чернобыльской зоне отчуждения, превратившейся в угрозу для всего человечества. Зона неохотно расстается со своими секретами, и вам придется заставить её поведать вам свои тайны. Далеко не каждый герой сумеет проникнуть в самое её сердце и обнаружить, какая опасность поджидает его.
+                     <br /><br />
+                     По сравнению с этой опасностью мародеры, вражеские группировки, чудовища и аномалии кажутся детской игрой. Настоящая угроза окажется гораздо страшнее - и смертоноснее.
+                     <br /><br />
+                     Все это будет потом… а пока готовься, герой. Собирай артефакты, прокладывай тропы, не поворачивайся к врагу спиной, собирай микрорентгены и сражайся – и постарайся не умереть! А если тебе хватит везения и настойчивости, ты узнаешь, почему эта участь выпала именно тебе.
+                     <br /><br />
+                     • Воссозданные ориентиры чернобыльской зоны отчуждения - город работников станции Припять, Чернобыльская АЭС, объект Чернобыль-2 для радиолокационного обнаружения и другие.<br />
+                     • Свобода перемещения внутри сюжета, ограниченная только желаниями и возможностями игрока.<br />
+                     • Уникальные многопользовательские режимы в сеттинге игры — сбор артефактов, аномалии, радиация, погодные эффекты, смена дня и ночи и прочее.<br />
+                  </small>
+               </div>
+            </div>
          </div>
-         <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-            <div class="toast-header">
-              <img src="..." class="rounded me-2" alt="...">
-              <strong class="me-auto">Bootstrap</strong>
-              <small>11 mins ago</small>
-              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-            </div>
-            <div class="toast-body">
-              Hello, world! This is a toast message.
-            </div>
-          </div>
       </main>
    </body>
 </html>

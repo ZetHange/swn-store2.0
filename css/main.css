@@ -25,6 +25,11 @@
 		--bs-btn-padding-x: 1rem!important;
 		--bs-btn-font-size: 15px!important;
 		--bs-btn-border-radius: 12px!important;
+		float: center!important;
+	}
+	#about {
+		align-items:center;
+		justify-content:center;
 	}
 }
 
@@ -53,7 +58,16 @@
 		--bs-btn-padding-x: 1rem!important;
 		--bs-btn-font-size: 15px!important;
 		--bs-btn-border-radius: 12px!important;
+		float: left!important;
 	}
+	#about {
+		align-items:right;
+		justify-content:right;
+	}
+}
+
+small {
+	font-size: 13px!important;
 }
 
 #info-block {
@@ -63,42 +77,9 @@
 .card {
 	border: #F3F3F3!important;
 }
-.float-center {
-	align-items: center!important;
-}
-.feature-icon {
-  width: 4rem;
-  height: 4rem;
-  border-radius: .75rem;
-}
-
-.icon-link > .bi {
-  margin-top: .125rem;
-  margin-left: .125rem;
-  fill: currentcolor;
-  transition: transform .25s ease-in-out;
-}
-.icon-link:hover > .bi {
-  transform: translate(.25rem);
-}
-
-.icon-square {
-  width: 3rem;
-  height: 3rem;
-  border-radius: .75rem;
-}
-
-.text-shadow-1 { text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25); }
-.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
-.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
 
 .card-cover {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-}
-
-.feature-icon-small {
-  width: 3rem;
-  height: 3rem;
 }
