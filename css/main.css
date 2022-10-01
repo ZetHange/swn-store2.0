@@ -22,7 +22,7 @@
 	}
 	.btn-custom {
 		--bs-btn-padding-y: 10px!important;
-		--bs-btn-padding-x: 1rem!important;
+		--bs-btn-padding-x: 30px!important;
 		--bs-btn-font-size: 15px!important;
 		--bs-btn-border-radius: 12px!important;
 		float: center!important;
