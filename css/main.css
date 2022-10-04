@@ -31,6 +31,10 @@
 		align-items:center;
 		justify-content:center;
 	}
+	#buttons {
+		justify-content: center!important;
+
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -63,6 +67,11 @@
 	#about {
 		align-items:right;
 		justify-content:right;
+	}
+	#buttons {
+		justify-content: flex-start!important;
+		padding-right: 0.5rem!important;
+		padding-left: 0.5rem!important;
 	}
 }
 
